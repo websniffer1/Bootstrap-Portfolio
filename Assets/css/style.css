@@ -108,6 +108,7 @@ body {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    grid-column: span 12;
   }
   
   h3, h2 {
@@ -143,6 +144,7 @@ body {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    grid-column: span 4;
   }
   
   .work:nth-child(even) {
@@ -216,4 +218,5 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+  
   
